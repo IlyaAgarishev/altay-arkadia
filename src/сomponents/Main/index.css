@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-img {
+  width: 100%;
+}
+
+.welcome-words {
+  font-size: 80px;
+  font-weight: 900;
+  color: white;
+  position: absolute;
+  top: 0;
+  /* margin-top: 120px; */
+  /* margin-left: 150px; */
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.welcome-words-top {
+  font-size: 20px;
+}
+.welcome-words-bottom {
+  font-weight: 300;
+  font-size: 20px;
+  align-self: flex-end;
+}
+
+.mini-booking {
+  width: 70%;
+  top: 0;
+  margin-top: 30%;
+  margin: 30% 15% 0 15%;
+  height: 100px;
+  background: white;
+  position: absolute;
+}

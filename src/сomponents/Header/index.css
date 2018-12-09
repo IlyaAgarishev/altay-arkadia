@@ -1,0 +1,69 @@
+.header {
+  width: 100%;
+  height: 40px;
+  background: #00b6f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.phone-number {
+  margin-left: 20px;
+  color: white;
+  font-weight: 300;
+}
+
+.routes {
+  display: flex;
+  height: 100%;
+  margin-right: 5%;
+}
+
+.route {
+  text-decoration: none;
+  height: 100%;
+  padding: 0 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 300;
+}
+
+.route:hover {
+  transition: all 0.5s ease;
+  cursor: pointer;
+  background: #0099cd;
+}
+
+@media only screen and (max-width: 990px) {
+  .header {
+    height: 30px;
+  }
+  .phone-number,
+  .route {
+    font-size: 10px;
+  }
+  .route {
+    padding: 0 10px;
+  }
+  .routes {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .header {
+    height: 30px;
+  }
+  .phone-number,
+  .route {
+    font-size: 10px;
+  }
+  .route {
+    padding: 0 10px;
+  }
+  .routes {
+    margin-right: 0;
+  }
+}
